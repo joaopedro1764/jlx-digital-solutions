@@ -14,7 +14,7 @@ import {
 const ServicesSection = () => {
   const handleWhatsAppContact = (service: string) => {
     const message = `Olá! Tenho interesse no serviço de ${service}. Gostaria de solicitar um orçamento.`;
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511978387886?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

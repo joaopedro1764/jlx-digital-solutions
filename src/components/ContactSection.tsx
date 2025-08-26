@@ -28,7 +28,7 @@ const ContactSection = () => {
 
   const handleWhatsAppContact = () => {
     const message = "Olá! Vi o site da JLX SYSTEMS e gostaria de conversar sobre um projeto.";
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511978387886?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -59,7 +59,7 @@ Serviço de interesse: ${formData.service || 'Não especificado'}
 
 Mensagem: ${formData.message}`;
 
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/5511978387886?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 
     toast({
@@ -127,21 +127,21 @@ Mensagem: ${formData.message}`;
                     <Phone className="w-5 h-5 text-primary mr-3" />
                     <div>
                       <p className="font-semibold text-foreground">Telefone</p>
-                      <p className="text-muted-foreground">(11) 99999-9999</p>
+                      <p className="text-muted-foreground">(11) 97838-7886</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Mail className="w-5 h-5 text-primary mr-3" />
                     <div>
                       <p className="font-semibold text-foreground">Email</p>
-                      <p className="text-muted-foreground">contato@jlxsystems.com</p>
+                      <p className="text-muted-foreground">jlxsystemsdev@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="w-5 h-5 text-primary mr-3" />
                     <div>
                       <p className="font-semibold text-foreground">Localização</p>
-                      <p className="text-muted-foreground">São Paulo, SP</p>
+                      <p className="text-muted-foreground">Cotia, SP</p>
                     </div>
                   </div>
                   <div className="flex items-center">

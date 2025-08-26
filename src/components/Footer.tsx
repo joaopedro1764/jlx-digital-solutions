@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { 
-  MessageCircle, 
-  Mail, 
-  Phone, 
+import {
+  MessageCircle,
+  Mail,
+  Phone,
   MapPin,
   Code,
   Globe,
@@ -13,7 +13,7 @@ import {
 const Footer = () => {
   const handleWhatsAppContact = () => {
     const message = "Olá! Tenho interesse em conhecer os serviços da JLX SYSTEMS.";
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511978387886?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -45,10 +45,10 @@ const Footer = () => {
               JLX SYSTEMS
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Especialistas em desenvolvimento de sistemas e landing pages. 
+              Especialistas em desenvolvimento de sistemas e landing pages.
               Transformamos suas ideias em soluções digitais de alto impacto.
             </p>
-            <Button 
+            <Button
               onClick={handleWhatsAppContact}
               className="bg-gradient-primary text-primary-foreground hover:shadow-glow transition-all duration-300 font-semibold"
             >
@@ -65,7 +65,7 @@ const Footer = () => {
                 const IconComponent = service.icon;
                 return (
                   <li key={index}>
-                    <button 
+                    <button
                       onClick={() => scrollToSection(service.id)}
                       className="flex items-center text-muted-foreground hover:text-primary transition-colors group"
                     >
@@ -76,7 +76,7 @@ const Footer = () => {
                 );
               })}
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('services')}
                   className="flex items-center text-muted-foreground hover:text-primary transition-colors group"
                 >
@@ -85,7 +85,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('services')}
                   className="flex items-center text-muted-foreground hover:text-primary transition-colors group"
                 >
@@ -94,7 +94,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('services')}
                   className="flex items-center text-muted-foreground hover:text-primary transition-colors group"
                 >
@@ -110,7 +110,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-foreground mb-4">Links Rápidos</h4>
             <ul className="space-y-3">
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('home')}
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
@@ -118,7 +118,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('services')}
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
@@ -126,7 +126,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('about')}
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
@@ -134,7 +134,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('contact')}
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
@@ -142,7 +142,7 @@ const Footer = () => {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={handleWhatsAppContact}
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
@@ -159,19 +159,19 @@ const Footer = () => {
               <li className="flex items-start">
                 <Phone className="w-4 h-4 mr-2 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-muted-foreground">(11) 99999-9999</p>
+                  <p className="text-muted-foreground">(11) 97838-7886</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <Mail className="w-4 h-4 mr-2 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-muted-foreground">contato@jlxsystems.com</p>
+                  <p className="text-muted-foreground">jlxsystemsdev@gmail.com</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <MapPin className="w-4 h-4 mr-2 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-muted-foreground">São Paulo, SP<br />Brasil</p>
+                  <p className="text-muted-foreground">Cotia, SP</p>
                 </div>
               </li>
             </ul>
@@ -182,11 +182,11 @@ const Footer = () => {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-muted-foreground text-sm mb-4 md:mb-0">
-              © 2024 JLX SYSTEMS. Todos os direitos reservados.
+              {new Date().getFullYear()} © JLX SYSTEMS. Todos os direitos reservados.
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-muted-foreground text-sm">
-                Desenvolvido com tecnologia e dedicação
+                Desenvolvido por João e Laryssa
               </span>
               <button
                 onClick={scrollToTop}

@@ -4,7 +4,7 @@ import { ArrowRight, Code, Zap, Target } from "lucide-react";
 const HeroSection = () => {
   const handleWhatsAppContact = () => {
     const message = "Olá! Vi o site da JLX SYSTEMS e gostaria de solicitar um orçamento personalizado.";
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511978387886?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-background" />
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
-      
+
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
           {/* Main Headline */}
@@ -39,8 +39,8 @@ const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Desenvolvemos <strong className="text-primary">sistemas personalizados</strong> e 
-            <strong className="text-primary"> landing pages de alta conversão</strong> para 
+            Desenvolvemos <strong className="text-primary">sistemas personalizados</strong> e
+            <strong className="text-primary"> landing pages de alta conversão</strong> para
             impulsionar o crescimento do seu negócio.
           </p>
 
@@ -68,7 +68,7 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.8s' }}>
-            <Button 
+            <Button
               onClick={handleWhatsAppContact}
               size="lg"
               className="bg-gradient-primary text-primary-foreground hover:shadow-glow transition-all duration-300 font-semibold px-8 py-4 text-lg group"
@@ -76,7 +76,7 @@ const HeroSection = () => {
               Solicitar Orçamento Gratuito
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button 
+            <Button
               onClick={scrollToServices}
               variant="outline"
               size="lg"
@@ -93,8 +93,23 @@ const HeroSection = () => {
               <span className="px-4 py-2 bg-card rounded-lg border font-medium">React</span>
               <span className="px-4 py-2 bg-card rounded-lg border font-medium">Node.js</span>
               <span className="px-4 py-2 bg-card rounded-lg border font-medium">TypeScript</span>
-              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Python</span>
-              <span className="px-4 py-2 bg-card rounded-lg border font-medium">WordPress</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Next.js</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Tailwind CSS</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">JavaScript (ES6+)</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">PostgreSQL</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">MongoDB</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Docker</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Git & GitHub</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Express.js</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Prisma ORM</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">GraphQL</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">REST API</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">AWS</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Vercel</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Firebase</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">CI/CD</span>
+              <span className="px-4 py-2 bg-card rounded-lg border font-medium">Agile (Scrum / Kanban)</span>
+
             </div>
           </div>
         </div>

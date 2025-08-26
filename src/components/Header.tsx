@@ -7,7 +7,7 @@ const Header = () => {
 
   const handleWhatsAppContact = () => {
     const message = "Olá! Gostaria de solicitar um orçamento para desenvolvimento de sistema/landing page.";
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5511978387886?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
