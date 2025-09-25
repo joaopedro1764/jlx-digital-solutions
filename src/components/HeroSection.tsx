@@ -26,7 +26,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto animate-fade-in">
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-            <span className="text-foreground">Mudamos </span>
+            <span className="text-foreground">Transformamos </span>
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               Ideias
             </span>
